@@ -1,5 +1,5 @@
 <?php
-
+// efo
 $html_string = file_get_contents('https://www.worldometers.info/coronavirus/');
 $dom = new DOMDocument();
 libxml_use_internal_errors(true);
